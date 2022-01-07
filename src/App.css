@@ -36,3 +36,98 @@
     transform: rotate(360deg);
   }
 }
+.banner-card{
+  width:98vw;
+  margin-top:1vh;
+  margin-bottom:3vh;
+  position: relative;
+  height: 70vh;
+  color:white;
+  border-radius: 20px;
+}
+.banner-img {
+  height:70vh;
+  width: 98vw;
+  border-radius: 20px;
+}
+.banner-title {
+  position:absolute;
+  top: 45vh;
+  left: 5vw;
+}
+.banner-text{
+  position:absolute; 
+  top: 50vh;
+  left: 5vw;
+  height:4.5rem;
+  overflow: hidden;
+  margin-right: 5vw;
+}
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding:1rem;  
+  justify-content:center;
+} 
+.movies-card {
+  width: 20vw;
+  margin: 0.5rem;
+  color: #fff;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  opacity: 0.95;
+}
+.movies-title {
+  position:absolute;
+  top: 1rem;
+  left: 1rem;
+}
+.movies-button{
+  position:absolute;
+  bottom: 1.5rem;
+}
+/* style={{height:'50vh',width:'20vw'}} */
+.movies-img{
+  height: 50vh;
+  width: 20vw;
+  border-radius: 20px;
+}
+
+.favourite-gener{
+  padding: 1rem;
+}
+.favourite-table{
+  padding: 1rem;
+  overflow: auto;
+}
+@media screen and (max-width:426px) {
+  .banner-card{
+    height:40vh;
+  }
+  .banner-img{
+    height:40vh;
+  }
+  .banner-title{
+    top:15vh;
+    left: 5vw
+  }
+  .banner-text{
+    top:20vh;
+    left: 5vw;
+  }
+  .movies-card{
+    width:40vw;
+    margin: 0.2rem;
+  }
+  .movies-img{
+    width:40vw;
+  }
+  .movies-button{
+    width:80%;
+  }
+  .favourite-table{
+    /* padding: 1rem; */
+    margin-left: 0.5rem;
+  }
+}
